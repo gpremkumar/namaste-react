@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla React</title>
+  </head>
+  <body>
+    <div id="root">
+      
+      <p>
+        This content will be overwritten, when ReactDOM render completes its
+        rendering
+      </p>
+    </div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      var root = ReactDOM.createRoot(document.getElementById("root"));
+      var h3 = React.createElement("h3", { key: 1 }, "Namaste React!");
+      var h4 = React.createElement(
+        "h4",
+        { key: 2 },
+        "HTML Elements created and rendered using React CDN"
+      );
+      var divCont = React.createElement("div", {}, [h3, h4]);
+
+      root.render(divCont);
+    </script>
+  </body>
+</html>
