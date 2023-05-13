@@ -1,0 +1,16 @@
+1. What is Emmet ?
+Emmet is a free add-on for your text editor. It allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, developers type less, they save both on keystrokes and time. Also relying on Emmet's auto completion means fewer typos and missing tags, leading to more robust and valid files.
+
+2. Difference between Library and Framework ?
+When you use a library, you are in charge of the flow of the application. You are choosing when and where to call the library. When you use a framework, the framework is in charge of the flow. It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
+
+3. What is CDN ? Why do we use it ?
+A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications. CDN can stand for content delivery network or content distribution network. When a user visits a website, data from that website's server has to travel across the internet to reach the user's computer. If the user is located far from that server, it will take a long time to load a large file, such as a video or website image. Instead, the website content is stored on CDN servers geographically closer to the users and reaches their computers much faster.
+
+A CDN improves efficiency by introducing intermediary servers between the client and the website server. These CDN servers manage some of the client-server communications. They decrease web traffic to the web server, reduce bandwidth consumption, and improve the user experience of your applications.
+
+4. Why React is known as React ?
+Realizing that FBolt wouldn’t be a great name for the library when used on its own, Jordan Walke and Tom Occhino decided on a new name: "React". 
+  Jordan commented:This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
+  
+  
