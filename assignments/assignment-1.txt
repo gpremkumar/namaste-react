@@ -14,3 +14,12 @@ Realizing that FBolt wouldn’t be a great name for the library when used on its
   Jordan commented:This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
   
   
+5. What is cross-origin in script tag ?
+The crossorigin attribute on a <script> tag specifies that CORS is supported when loading an external script file from a third party server or domain.
+CORS is a standard mechanism used to retrieve files from other domains.
+
+6. What is difference between React and ReactDOM ?
+The react package holds the react source for components, state, props and all the code that is react.
+
+The react-dom package as the name implies is the glue between React and the DOM. Often, you will only use it for one single thing: mounting your application to the index.html file with ReactDOM.render().
+  
