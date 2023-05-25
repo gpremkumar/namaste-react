@@ -23,3 +23,12 @@ The react package holds the react source for components, state, props and all th
 
 The react-dom package as the name implies is the glue between React and the DOM. Often, you will only use it for one single thing: mounting your application to the index.html file with ReactDOM.render().
   
+7. Difference betwenn react.development.js and react.production.js files via CDN ?
+Functionally both are same. React production files are minified one to reduce the size of the file to improve loading time and performance. Whereas development files are readable which makes the file larger and takes comparable time to load than the production version files
+
+8. What are async and defer ?
+async attribute in script tag doesn't interrupt the HTML parsing during the file download. Once the script files are downloaded, it pauses the HTML rendering and completes the script execution, then continues the HTML parsing.
+
+defer attribute in script tag doesn't interrupt the HTML parsing during the file download and waits for HTML parsing to complete. Once HTML parsing is completed, script starts its execution in order.
+
+If the order of script execution is necessary, then go for defer, since the async attribute does not guarantee the order of script execution.
